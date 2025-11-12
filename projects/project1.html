@@ -58,6 +58,23 @@
       overflow-x: auto;
       font-size: 0.9em;
     }
+    img {
+      max-width: 600px;   /* default maximum width */
+      width: 100%;        /* scales down to fit smaller screens */
+      height: auto;       /* keeps the correct aspect ratio */
+      border-radius: 8px;
+      margin: 1em 0;
+    }
+
+    /* Optional: smaller images */
+    img.small {
+      max-width: 300px;
+    }
+
+    /* Optional: larger images */
+    img.large {
+      max-width: 900px;
+    }
   </style>
 </head>
 <body>
